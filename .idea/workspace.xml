@@ -25,15 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fa5d454-06e4-44bc-9285-e8acf8497731" name="Default Changelist" comment="source_last1">
-      <change afterPath="$PROJECT_DIR$/PE_Images/allDemo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PE_Images/source/rez1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PE_Images/source/rez1_r2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PE_Images/source/rez_z21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PE_Images/source/rezt6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PE_Images/source/rtez_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PE_Images/source/t001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1fa5d454-06e4-44bc-9285-e8acf8497731" name="Default Changelist" comment="example_video1">
+      <change afterPath="$PROJECT_DIR$/PE_EX/Zal_S/M_03.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_EX/Zal_S/group_fontan.AVI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_EX/Zal_S/video_res.avi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647607714018</updated>
-      <workItem from="1647607717721" duration="1489000" />
+      <workItem from="1647607717721" duration="1790000" />
     </task>
     <task id="LOCAL-00001" summary="source0">
       <created>1647608179795</created>
@@ -109,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647608585750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="example1">
+      <created>1647610191021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647610191021</updated>
+    </task>
+    <task id="LOCAL-00006" summary="example_video1">
+      <created>1647610353635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647610353635</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +152,9 @@
     <MESSAGE value="source0" />
     <MESSAGE value="source_last" />
     <MESSAGE value="source_last1" />
-    <option name="LAST_COMMIT_MESSAGE" value="source_last1" />
+    <MESSAGE value="example1" />
+    <MESSAGE value="example_video1" />
+    <option name="LAST_COMMIT_MESSAGE" value="example_video1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="847" y="419" key="Github.ShareDialog" timestamp="1647607749271">
@@ -154,9 +165,9 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="744" y="230" key="Github.UntrackedFilesDialog/0.0.1920.1036/-1280.60.1280.1024@0.0.1920.1036" timestamp="1647607755661" />
-    <state x="556" y="255" key="Vcs.Push.Dialog.v2" timestamp="1647608589470">
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2" timestamp="1647610357582">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1036/-1280.60.1280.1024@0.0.1920.1036" timestamp="1647608589470" />
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1036/-1280.60.1280.1024@0.0.1920.1036" timestamp="1647610357582" />
   </component>
 </project>
