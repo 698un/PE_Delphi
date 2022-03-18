@@ -976,6 +976,8 @@ type
     Lab_lm_cg: TStaticText;
     Lab_lm_cb: TStaticText;
     Cmd_LM_standart: TButton;
+    Frm_Stereo: TGroupBox;
+    Cmd_Stereo: TButton;
     procedure AngleToRGBTone(angle:real;var r,g,b:integer);
     procedure rescroll_fon;
     procedure PutPixelPr1;
@@ -1592,6 +1594,7 @@ type
     procedure Scroll_Lm_CBChange(Sender: TObject);
     procedure Check_LM_TypeNormalClick(Sender: TObject);
     procedure Cmd_LM_standartClick(Sender: TObject);
+    procedure Cmd_StereoClick(Sender: TObject);
 
 
   private
@@ -2253,7 +2256,7 @@ Frm_Gl_HSV.Visible:=false;
 Frm_Glass_tone.Visible:=false;
 Frm_BWTImes.Visible:=false;
 Frm_SinGrad.Visible:=false;
-
+Frm_stereo.Visible:=false;
 
 frm_prenovigate.visible:=true;
 
@@ -2381,6 +2384,7 @@ lst_instr.additem('Glass_HSV',lst_instr);
 lst_instr.additem('Glass_TONE',lst_instr);
 lst_instr.additem('BWTimes',lst_instr);
 lst_instr.additem('SinGrad',lst_instr);
+lst_instr.additem('StereoCombi',lst_instr);
 
 
 frm_fon.Left:=frm_instr.Left+frm_instr.width;
@@ -2544,6 +2548,11 @@ Frm_BWTimes.Height:=frm_instr.Height-1;
 Frm_Singrad.Left:=frm_fon.Left;
 Frm_Singrad.Top:=frm_fon.Top;
 Frm_Singrad.Height:=frm_instr.Height-1;
+
+
+Frm_Stereo.Left:=frm_fon.Left;
+Frm_Stereo.Top:=frm_fon.Top;
+Frm_Stereo.Height:=frm_instr.Height-1;
 
 
 framehide;
@@ -3390,6 +3399,7 @@ if lst_instr.itemindex=43 then Frm_Gl_HSV.visible:=true;
 if lst_instr.itemindex=44 then Frm_Glass_tone.visible:=true;
 if lst_instr.itemindex=45 then Frm_BWTimes.visible:=true;
 if lst_instr.itemindex=46 then Frm_Singrad.visible:=true;
+if lst_instr.itemindex=47 then Frm_stereo.visible:=true;
 
 
 end;
@@ -13769,6 +13779,23 @@ scroll_LM_cb.position:=100-11;
 
 end;
 
+procedure TForm1.Cmd_StereoClick(Sender: TObject);
+var p2:prgbarray;
+begin
+for ye:=0 to img1.Picture.Height-1 do begin
+p1:=img1.Picture.Bitmap.ScanLine[ye];
+p2:=img_fon.Picture.Bitmap.ScanLine[ye];
+
+for xe:=0 to img1.Picture.width-1 do begin
+
+p1[xe].rgbtgreen:=p2[xe].rgbtGreen;
+p1[xe].rgbtblue:=p2[xe].rgbtblue;
+
+
+end;end;
+img1.Refresh;
+end;
+
 end.
 {
 10_07_2007
@@ -14002,4 +14029,7 @@ Brightness
 
 2010_11_05
 Реализована проверка на наличие расширения bmp в имени сохраняемого файла
+
+2012_10_26
+добавлен фильтр для комбинирования фотографий в стерео
 }
