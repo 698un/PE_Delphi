@@ -25,14 +25,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fa5d454-06e4-44bc-9285-e8acf8497731" name="Default Changelist" comment="source0">
-      <change beforePath="$PROJECT_DIR$/PE_Source/PE_Release.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PE_Source/PE_Release.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PE_Source/Project1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/PE_Source/Project1.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PE_Source/Unit1.dcu" beforeDir="false" afterPath="$PROJECT_DIR$/PE_Source/Unit1.dcu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PE_Source/Unit1.dfm" beforeDir="false" afterPath="$PROJECT_DIR$/PE_Source/Unit1.dfm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PE_Source/Unit1.pas" beforeDir="false" afterPath="$PROJECT_DIR$/PE_Source/Unit1.pas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PE_Source/Unit1.~dfm" beforeDir="false" afterPath="$PROJECT_DIR$/PE_Source/Unit1.~dfm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PE_Source/Unit1.~pas" beforeDir="false" afterPath="$PROJECT_DIR$/PE_Source/Unit1.~pas" afterDir="false" />
+    <list default="true" id="1fa5d454-06e4-44bc-9285-e8acf8497731" name="Default Changelist" comment="source_last1">
+      <change afterPath="$PROJECT_DIR$/PE_Images/allDemo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_Images/source/rez1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_Images/source/rez1_r2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_Images/source/rez_z21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_Images/source/rezt6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_Images/source/rtez_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PE_Images/source/t001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="26Yk4FWx6byWB48eLJif7xG09eK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -75,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647607714018</updated>
-      <workItem from="1647607717721" duration="758000" />
+      <workItem from="1647607717721" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="source0">
       <created>1647608179795</created>
@@ -84,7 +88,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647608179795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="source_last">
+      <created>1647608488123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647608488123</updated>
+    </task>
+    <task id="LOCAL-00003" summary="source_last1">
+      <created>1647608574150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647608574150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="source_last1">
+      <created>1647608585750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647608585750</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,8 +139,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="source0" />
-    <option name="LAST_COMMIT_MESSAGE" value="source0" />
+    <MESSAGE value="source_last" />
+    <MESSAGE value="source_last1" />
+    <option name="LAST_COMMIT_MESSAGE" value="source_last1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="847" y="419" key="Github.ShareDialog" timestamp="1647607749271">
@@ -126,9 +154,9 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="744" y="230" key="Github.UntrackedFilesDialog/0.0.1920.1036/-1280.60.1280.1024@0.0.1920.1036" timestamp="1647607755661" />
-    <state x="556" y="255" key="Vcs.Push.Dialog.v2" timestamp="1647608272783">
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2" timestamp="1647608589470">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1036/-1280.60.1280.1024@0.0.1920.1036" timestamp="1647608272783" />
+    <state x="556" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1036/-1280.60.1280.1024@0.0.1920.1036" timestamp="1647608589470" />
   </component>
 </project>
